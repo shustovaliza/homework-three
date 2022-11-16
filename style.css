@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Hind Siliguri Medium';
+    font-style: Medium;
+    src: local('Hind Siliguri Medium'),
+        url(fonts/HindSiliguri-Medium.woff2) format('woff2'),
+        url(fonts/HindSiliguri-Medium.woff) format('woff'),
+        url(fonts/HindSiliguri-Medium.ttf) format('ttf'),
+        url(fonts/HindSiliguri-Medium.eot) format('eot');
+}
+
+@font-face {
+    font-family: 'Hind Siliguri SemiBold';
+    font-style: SemiBold;
+    src: local('Hind Siliguri SemiBold'),
+        url(fonts/HindSiliguri-SemiBold.woff2) format('woff2'),
+        url(fonts/HindSiliguri-SemiBold.woff) format('woff'),
+        url(fonts/HindSiliguri-SemiBold.ttf) format('ttf'),
+        url(fonts/HindSiliguri-SemiBold.eot) format('eot');
+}
+
+@font-face {
+    font-family: 'Hind Siliguri Light';
+    font-style: Light;
+    src: local('Hind Siliguri Light'),
+        url(fonts/HindSiliguri-Light.woff2) format('woff2'),
+        url(fonts/HindSiliguri-Light.woff) format('woff'),
+        url(fonts/HindSiliguri-Light.ttf) format('ttf'),
+        url(fonts/HindSiliguri-Light.eot) format('eot');
+}
+
+@font-face {
+    font-family: 'Hind Siliguri Regular';
+    font-style: Regular;
+    src: local('Hind Siliguri Regular'),
+        url(fonts/HindSiliguri-Regular.woff2) format('woff2'),
+        url(fonts/HindSiliguri-Regular.woff) format('woff'),
+        url(fonts/HindSiliguri-Regular.ttf) format('ttf'),
+        url(fonts/HindSiliguri-Regular.eot) format('eot');
+}
+
+.wrap {
+    width: 1236px;
+    height: 811px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.block-one {
+    height: 611px;
+    width: 1236px;
+}
+
+.block-one__text {
+    width: 556px;
+    height: 426px;
+    margin-top: 75px;
+    margin-left: 10px;
+}
+
+.text-one {
+    font-family: 'Hind Siliguri Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+    color: #C72535;
+    opacity: 0.6;
+}
+
+.text-two {
+    margin-top: 3px;
+    font-family: 'Hind Siliguri Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 73px;
+}
+
+.text-two__selection {
+    font-family: 'Hind Siliguri Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 73px;
+    color: #247CC0;
+    background: rgb(36, 124, 192, 0.1);
+}
+
+.text-three {
+    margin-top: 29px;
+    font-family: 'Hind Siliguri Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #030D15;
+    opacity: 0.6;
+}
+
+.button-and-price {
+    height: 58px;
+    margin-top: 36px;
+}
+
+button {
+    width: 151px;
+    height: 58px;
+    font-family: 'Hind Siliguri SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #247CC0;
+    border: none;
+}
+
+.price-one {
+    display: inline;
+    font-family: 'Hind Siliguri Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #030D15;
+    margin-left: 31px;
+}
+
+.price-two {
+    display: inline;
+    margin-left: 18px;
+    font-family: 'Hind Siliguri Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #030D15;
+    opacity: 0.5;
+}
+
+.main-image {
+    margin-left: 593px;
+    margin-top: -504px;
+    width: 643px;
+    height: 611px;
+}
+
+.block-two {
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 86px;
+    margin-top: -114px;
+    width: 1140px;
+    height: 237px;
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(174, 174, 174, 0.08), 0px 43.751px 36.4414px rgba(174, 174, 174, 0.0575083), 0px 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886), 0px 6.77214px 9.61331px rgba(174, 174, 174, 0.04), 0px 0.190079px 4.14347px rgba(174, 174, 174, 0.0323114), 0px -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
+    border-radius: 0px;
+    z-index: 1;
+}
+
+.block-two__images {
+    width: 904px;
+    height: 85px;
+    margin: 76px 118px;
+}
+.images {
+    margin-left: 80px;
+}
